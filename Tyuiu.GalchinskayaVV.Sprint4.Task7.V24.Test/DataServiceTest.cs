@@ -14,18 +14,15 @@ namespace Tyuiu.GalchinskayaVV.Sprint4.Task7.V24.Test
             string input = "651827384219648";
 
             int expected = 1;
-
-            int[] evens =
-            {
-                6, 8, 2, 8, 4, 2, 6, 4, 8
-            };
+            int[] evens = { 6, 8, 2, 8, 4, 2, 6, 4, 8 };
 
             foreach (int n in evens)
                 expected *= n;
 
-            int actual = ds.Calculate(input);
+            int actual = ds.Calculate(5, 3, input);
 
             Assert.AreEqual(expected, actual);
         }
+
     }
 }

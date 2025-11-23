@@ -23,11 +23,10 @@ namespace Tyuiu.GalchinskayaVV.Sprint4.Task7.V24
             string str = "651827384219648";
 
             DataService ds = new DataService();
-            int result = ds.Calculate(str);
+            int result = ds.Calculate(5, 3, str);
 
             Console.WriteLine($"Произведение чётных чисел = {result}");
 
-            Console.ReadKey();
         }
     }
 }
