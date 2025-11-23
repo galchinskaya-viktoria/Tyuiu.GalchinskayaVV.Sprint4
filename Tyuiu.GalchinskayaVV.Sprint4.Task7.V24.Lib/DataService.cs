@@ -4,7 +4,7 @@ using Tyuiu.GalchinskayaVV.Sprint4.Task7.V24.Lib;
 
 namespace Tyuiu.GalchinskayaVV.Sprint4.Task7.V24.Lib
 {
-    public class DataService : ISprint4TaskX
+    public class DataService : ISprint4Task7V24
     {
         public int Calculate(string str)
         {
@@ -33,6 +33,11 @@ namespace Tyuiu.GalchinskayaVV.Sprint4.Task7.V24.Lib
             }
 
             return product;
+        }
+
+        public int Calculate(int n, int m, string value)
+        {
+            throw new NotImplementedException();
         }
     }
 }
