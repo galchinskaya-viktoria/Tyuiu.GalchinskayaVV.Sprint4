@@ -1,11 +1,22 @@
-﻿namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Test
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Lib;
+
+namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CheckCalculate()
         {
+            DataService ds = new DataService();
+
+            int[] array = { 6, 3, 3, 7, 7, 7, 7, 3, 3, 6, 4, 4, 8 };
+
+            int actual = ds.Calculate(array);
+            int expected = 4608;
+
+            Assert.AreEqual(expected, actual);
         }
     }
 }
