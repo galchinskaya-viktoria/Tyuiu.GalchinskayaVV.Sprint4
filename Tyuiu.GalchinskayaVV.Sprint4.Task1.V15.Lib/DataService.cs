@@ -1,11 +1,10 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint4;
-namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V15.Lib
+namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Lib
 {
-    public class DataService : ISprint4Task1V15
+    public class DataService : ISprint4Task1V9
     {
         public int Calculate(int[] array)
         {
-
             int um = 1;
             for (int i = 0; i < array.Length; i++)
             {
@@ -17,4 +16,3 @@ namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V15.Lib
             return um;
         }
     }
-}

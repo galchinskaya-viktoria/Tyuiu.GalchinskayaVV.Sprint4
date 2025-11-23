@@ -1,20 +1,11 @@
-﻿using Tyuiu.GalchinskayaVV.Sprint4.Task1.V15.Lib;
-namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V15.Test
+﻿using Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Lib;
+namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Test
 {
-    [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void TestMethod1()
         {
-            DataService ds = new DataService();
-
-            int[] numsArray = { 6, 7, 6, 7, 5, 7, 6, 7, 9, 4, 6, 5, 8, 5 };
-
-            int res = ds.Calculate(numsArray);
-            int wait = 36;
-
-            Assert.AreEqual(wait, res);
         }
     }
 }

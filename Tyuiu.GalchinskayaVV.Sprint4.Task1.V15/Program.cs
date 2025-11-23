@@ -1,5 +1,5 @@
-﻿using Tyuiu.GalchinskayaVV.Sprint4.Task1.V15.Lib;
-namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V15
+﻿using Tyuiu.GalchinskayaVV.Sprint4.Task1.V9.Lib;
+namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V9
 {
     internal class Program
     {
@@ -7,14 +7,14 @@ namespace Tyuiu.GalchinskayaVV.Sprint4.Task1.V15
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #4 | Выполнил: Антонов В.В | ИСПб-24-1";
+            Console.Title = "Спринт #3 | Выполнил: Гальчинская Виктория Владимировна | ПКТб-25-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Одномерные массивы (ввод с клавиатуры)                            *");
+            Console.WriteLine("* Тема: Цикл do...while                                                   *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #15                                                             *");
-            Console.WriteLine("* Выполнил: Антонов В.В | ИСПб-24-1                                       *");
+            Console.WriteLine("* Вариант #9                                                             *");
+            Console.WriteLine("* Выполнил: Гальчинская Виктория Владимировна | ПКТб-25-1                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан одномерный целочисленный массив на 14 элементов заполненный         *");
