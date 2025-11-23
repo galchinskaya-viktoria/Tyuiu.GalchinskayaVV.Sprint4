@@ -1,7 +1,7 @@
-﻿namespace Tyuiu.GalchinskayaVV.Sprint4.Task0.V15.Test
+﻿namespace Tyuiu.GalchinskayaVV.Sprint4.Task5.V17.Test
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void TestMethod1()
